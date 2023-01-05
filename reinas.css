@@ -1,0 +1,162 @@
+
+.barvis {
+  color: #BA0B0B;
+}
+.barvis :hover {
+  color: #00DBA8;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+img.carta-principal {
+  display: block;
+  max-width: 90%;
+  margin: 10% 5%;
+}
+
+img.ornament {
+  margin: 3%;
+}
+
+a.elige {
+  margin: 5%;
+}
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container-1 h2:hover {
+  color: #FFCA2B;
+  align-self: auto;
+}
+
+.container-1 p {
+  margin: 0 5%;
+  text-align: center;
+}
+
+.elige {
+  background-color: #700707;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  align-items: center;
+  margin-left: 1%;
+  width: 50%;
+  text-align: center;
+}
+
+.elige:hover {
+  background: #FFCA2B;
+  color: #fff;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.container-2 h2 {
+  margin: 5% 5%;
+  text-align: center;
+}
+
+.container-2 h2:hover {
+  color: #FFCA2B;
+  align-self: auto;
+}
+
+.container-2 li {
+  list-style: none;
+  margin-bottom: 5%;
+}
+
+.container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.container-3 h2 {
+  margin: 5% 5%;
+  text-align: center;
+}
+
+.container-3 h2:hover {
+  color: #FFCA2B;
+  align-self: auto;
+}
+
+.cartas {
+  border-radius: 50%;
+}
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.btn-secondary {
+  border: #BA0B0B;
+  background-color: #700707;
+  font-size: large;
+  text-align: center;
+}
+
+.btn-secondary:hover {
+  background-color: #FFCA2B !important;
+  align-self: auto;
+}
+
+.button1 {
+  border: none;
+  background-color: #6c4166;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  justify-content: space-between;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+
+@media (min-width: 1200px) {
+  .cartas-texto {
+    display: inline-flex;
+  }
+  .container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  img {
+    max-width: 50%;
+  }
+}/*# sourceMappingURL=reinas.css.map *
